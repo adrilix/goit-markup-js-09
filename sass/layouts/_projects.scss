@@ -1,0 +1,107 @@
+.project__filters{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+.project__items:not(:last-child){
+    margin-right: 8px;
+}
+
+.project__button{
+    color: var(--text-first);
+    background-color: var(--bgc-ourcom);
+    border: 0px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 6px 22px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26/16);
+    text-align: center;
+    letter-spacing: 0.03em;
+    transition: color var(--anim),
+    background-color var(--anim),
+    box-shadow var(--anim);
+    &:hover,
+    &:focus{
+    background-color: var(--brand-color);
+    color:var(--text-third-tlbgc);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+    0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+}
+
+
+
+.project__cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.project__link{
+    display: block;
+    text-decoration: none;
+    transition:
+    box-shadow var(--anim);
+    &:hover,
+    &:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+}
+
+.project__card{
+    position: relative;
+    overflow: hidden;
+}
+
+.project__overlay{
+    position: absolute;
+    display: flex;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 63px 24px;
+    font-size: 18px;
+    line-height: calc(28/18);
+    letter-spacing: 0.03em;
+    justify-content: center;
+    align-items: center;
+    color:var(--text-third-tlbgc);
+    background-color: rgba(33, 150, 243, 0.9);
+    transition-duration: 400ms;
+    .project__link:hover &{
+        transform: translateY(-100%);
+    
+    }
+}
+
+
+
+.project__text{
+    padding: 20px 24px;
+    border-right: 1px solid var(--portfolio-bgc);
+border-left: 1px solid  var(--portfolio-bgc);
+border-bottom: 1px solid  var(--portfolio-bgc);
+}
+
+.project__name{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    margin-bottom: 4px;
+}
+
+.project__type{
+    color: var(--text-second);
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    margin-bottom: 0px;
+}

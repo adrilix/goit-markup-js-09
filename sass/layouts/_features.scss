@@ -1,0 +1,70 @@
+.features__items{
+    display: flex;
+}__
+.features__item{
+    width: 270px;
+}
+.features__item:not(:last-child){
+    margin-right: 30px;
+}
+
+.features__antenna::before{
+    content:"" ;
+    display: block;
+    height: 120px;
+    margin-bottom: 30px;
+    background-image:url(../images/svg/зразки/antenna.svg);
+    background-color: var(--bgc-ourcom);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.features__clock::before{
+    content:"" ;
+    display: block;
+    height: 120px;
+    margin-bottom: 30px;
+    background-image:url(../images/svg/зразки/clock.svg);
+    background-color: var(--bgc-ourcom);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.features__diagram::before{
+    content:"" ;
+    display: block;
+    height: 120px;
+    margin-bottom: 30px;
+    background-image:url(../images/svg/зразки/diagram.svg);
+    background-color: var(--bgc-ourcom);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.features__astronaut::before{
+    content:"" ;
+    display: block;
+    height: 120px;
+    margin-bottom: 30px;
+    background-image:url(../images/svg/зразки/astronaut.svg);
+    background-color: var(--bgc-ourcom);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.features__title{
+    color:var(--text-first);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.03em; 
+    text-transform: uppercase;
+    margin-bottom: 10px; 
+}
+
+.features__text{
+    color: var(--text-second);
+    font-size: 14px;
+    line-height: calc(24/14);
+    letter-spacing: 0.03em;
+    margin-bottom: 0px;
+}

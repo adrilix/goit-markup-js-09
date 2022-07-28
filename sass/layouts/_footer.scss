@@ -1,0 +1,89 @@
+.footer{
+    background-color: var(--bgc-foot-hero);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer__blocks{
+    display: flex;
+    align-items: baseline;
+}
+
+.footer__contacts{
+    width: 231px;
+    margin-right: 70px;
+}
+
+.footer__logo{
+    padding: 0px;
+    margin-bottom: 20px;
+    font-size: 0px;
+}
+
+.logo__studio-footer--modificator{
+    color:var(--text-third-tlbgc);
+    font-size: 26px;
+}
+
+.adress__text{
+    color: var(--text-third-tlbgc);
+    font-size: 14px;
+    line-height: calc(24/14);
+    letter-spacing: 0.03em;
+}
+
+.adress__link{
+    display: inline-block;
+    color: var(--adress-link);
+    font-size: 14px;
+    line-height: calc(24/14);
+    letter-spacing: 0.03em;
+    margin-top: 9px;
+}
+
+.footer__social{
+    margin-right: 93px;
+}
+
+.footer__subtitle{
+    display: block;
+    color: var(--text-third-tlbgc);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.footer__social-links{
+    display: flex;
+    justify-content: center;
+}
+
+.footer__social-networks:not(:last-child){
+    margin-right: 10px;
+}
+
+.footer__link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    background-color: var(--footer-icon-bgc);
+    border-radius: 50%;
+    fill: var(--text-third-tlbgc);
+    transition: fill var(--anim),
+    background-color var(--anim);
+    &:hover,
+    &:focus{
+    background-color: var(--brand-color);
+    fill: var(--text-third-tlbgc);
+}
+}
+
+.footer__subscription{
+    width: 570px;
+    height: 86px;
+}
