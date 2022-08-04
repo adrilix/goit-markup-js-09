@@ -393,6 +393,102 @@
 // }
 
 // //3
-// for (let i=0; i < 10; i+=1) {
-//   console.log(i);
+// function checkStorage(available, ordered) {
+//     // Change code below this line
+  
+  
+//     if (ordered === 0) {
+//       return "Your order is empty!";
+//       ;
+//     } if (ordered > available) {
+//       return "Your order is too large, not enough goods in stock!";
+//     } 
+//       return "The order is accepted, our manager will contact you";
+    
+  
+  
+//     // Change code above this line
+//   }
+  
+//4
+// // Change code below this line
+// const fruits = ["apple", "plum", "pear", "orange"];
+
+//5
+// const fruits = ["apple", "plum", "pear", "orange"];
+// const firstElement = fruits[0];
+// const secondElement = fruits[1];
+// const lastElement = fruits[fruits.length -1];
+// // Change code below this line
+
+//6
+// const fruits = ["apple", "plum", "pear", "orange"];
+// fruits[1] = "peach";
+// fruits[3] = "banana";
+// // Write your code under this line
+
+//7
+// const fruits = ["apple", "peach", "pear", "banana"];
+// const fruitsArrayLength = fruits.length;
+// // Change code below this line
+
+//8
+// const fruits = ["apple", "peach", "pear", "banana"];
+// const lastElementIndex = fruits.length -1;
+// const lastElement = fruits[lastElementIndex];
+// Change code below this line
+
+//9
+
+function getExtremeElements(array) {
+    // Change code below this line
+    console.log(array);
+    const newArray=Array.from(array);
+    const indexLastElement=newArray.length-1;
+    console.log(indexLastElement);
+    const deletedNewArray = newArray.splice(1, {indexLastElement});
+      console.log(array[0], array[array.length-1]);
+      console.log(newArray);
+    
+  //   let x = getExtremeElements[0];
+  //   let y = [getExtremeElements.length-1];
+  // return x , y;
+  
+    // Change code above this line
+  }
+//    getExtremeElements([1, 2, 3, 4, 5])
+//         повертає [1, 5]
+//    getExtremeElements(["Earth", "Mars", "Venus"])
+//         повертає ["Earth", "Venus"]
+   getExtremeElements(["apple", "peach", "pear", "banana"]) 
+//         повертає ["apple", "banana"]
+
+// const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+// const n = -548593175152;
+
+// const newArr = [];
+
+// if (n<0){
+//     // вирахуємо кількість від'ємних циклів://
+//         let nCircle = Math.ceil (n / (-arr.length));
+//     // вирахуємо індекс першого елементу://
+//         let nIndex =arr.length * nCircle  + n;
+//     // console.log(`n =  ${n}`);
+//     // console.log(`кількість від'ємних циклів =  ${nCircle}`);
+//     // console.log(`довжина масиву${arr.length} * кількість від'ємних циклів ${nCircle} + значення елементу 'n= ${n}' `);
+//     // console.log(`індекс першого елементу =  ${nIndex}`);
+
+//         for (let i = nIndex; i < arr.length; i+=1) {
+//             newArr.push(arr[i]);
+//         }
 // }
+//  else if (n>0){
+//     for (let i = 0; i < n; i+=1) {
+//         if ( i >= arr.length ){
+//             break;
+//         }
+//             newArr.push(arr[i]);
+            
+//     } 
+// } else console.log('обрано 0 елементів фрагменту для формування нового масиву ');
+// console.log(`newArr =  ${newArr}`)
