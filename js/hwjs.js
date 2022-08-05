@@ -1,3 +1,33 @@
+// const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// const n = -65165;
+
+// const newArr = [];
+
+// if (n<0){
+//     // вирахуємо кількість від'ємних циклів://
+//         let nCircle = Math.ceil (n / (-arr.length));
+//     // вирахуємо індекс першого елементу://
+//         let nIndex =arr.length * nCircle  + n;
+//     console.log(`n =  ${n}`);
+//     console.log(`кількість від'ємних циклів =  ${nCircle}`);
+//     console.log(`довжина масиву${arr.length} * кількість від'ємних циклів ${nCircle} + значення елементу 'n= ${n}' `);
+//     console.log(`індекс першого елементу =  ${nIndex}`);
+
+//         for (let i = nIndex; i < arr.length; i+=1) {
+//             newArr.push(arr[i]);
+//         }
+// }
+//  else if (n>0){
+//     for (let i = 0; i < n; i+=1) {
+//         if ( i >= arr.length ){
+//             break;
+//         }
+//             newArr.push(arr[i]);
+
+//     }
+// } else console.log('обрано 0 елементів фрагменту для формування нового масиву ');
+// console.log(`newArr =  ${newArr}`)
+
 // // 6
 // "use strict";
 // const pricePerDroid = 800;
@@ -8,7 +38,7 @@
 
 // // 7
 // function sayHi (){
-//   console.log("Hello, this is my first function!") ; 
+//   console.log("Hello, this is my first function!") ;
 // }
 // sayHi ();
 
@@ -151,7 +181,7 @@
 //       message = "There are no products in the order!";
 //     } else if (ordered > available) {
 //       message = "Your order is too large, there are not enough items in stock!";
-      
+
 //     } else {
 //       message = "The order is accepted, our manager will contact you";
 //     }
@@ -321,7 +351,7 @@
 // function formatMessage(message, maxLength) {
 //   let result;
 //   // Change code below this line
-//       result = message.length > maxLength ? message.slice(0, maxLength)+"...": message;  
+//       result = message.length > maxLength ? message.slice(0, maxLength)+"...": message;
 //   /// Change code above this line
 //   return result;
 // }
@@ -339,7 +369,7 @@
 //    return result;
 //  }
 
- //36а
+//36а
 //  function checkForSpam(message) {
 //   let result = false;
 //   // Change code below this line
@@ -349,7 +379,7 @@
 //       result = true;
 //     } else if (normalizedMessage.includes('sale')){
 //       result = true;
-//     } 
+//     }
 //   // Change code above this line
 //   return result;
 // }
@@ -363,7 +393,7 @@
 
 //     if (normalizedMessage.includes('spam') || normalizedMessage.includes('sale')){
 //       result = true;
-//     } 
+//     }
 //   return false;
 // }
 
@@ -383,10 +413,9 @@
 //   const ADMIN_PASSWORD = "jqueryismyjam";
 //   // Change code below this line
 
-
 //   if (password === ADMIN_PASSWORD) {
 //     return "Welcome!";
-//   } 
+//   }
 
 //   return "Access denied, wrong password!";
 //   // Change code above this line
@@ -395,21 +424,18 @@
 // //3
 // function checkStorage(available, ordered) {
 //     // Change code below this line
-  
-  
+
 //     if (ordered === 0) {
 //       return "Your order is empty!";
 //       ;
 //     } if (ordered > available) {
 //       return "Your order is too large, not enough goods in stock!";
-//     } 
+//     }
 //       return "The order is accepted, our manager will contact you";
-    
-  
-  
+
 //     // Change code above this line
 //   }
-  
+
 //4
 // // Change code below this line
 // const fruits = ["apple", "plum", "pear", "orange"];
@@ -439,56 +465,283 @@
 // Change code below this line
 
 //9
+// function getExtremeElements(array) {
+//   // Change code below this line
+// const a=array[0];
+// const b=array[array.length-1];
+// return [a, b]
 
-function getExtremeElements(array) {
-    // Change code below this line
-    console.log(array);
-    const newArray=Array.from(array);
-    const indexLastElement=newArray.length-1;
-    console.log(indexLastElement);
-    const deletedNewArray = newArray.splice(1, {indexLastElement});
-      console.log(array[0], array[array.length-1]);
-      console.log(newArray);
-    
-  //   let x = getExtremeElements[0];
-  //   let y = [getExtremeElements.length-1];
-  // return x , y;
-  
-    // Change code above this line
-  }
-//    getExtremeElements([1, 2, 3, 4, 5])
-//         повертає [1, 5]
-//    getExtremeElements(["Earth", "Mars", "Venus"])
-//         повертає ["Earth", "Venus"]
-   getExtremeElements(["apple", "peach", "pear", "banana"]) 
-//         повертає ["apple", "banana"]
-
-// const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
-// const n = -548593175152;
-
-// const newArr = [];
-
-// if (n<0){
-//     // вирахуємо кількість від'ємних циклів://
-//         let nCircle = Math.ceil (n / (-arr.length));
-//     // вирахуємо індекс першого елементу://
-//         let nIndex =arr.length * nCircle  + n;
-//     // console.log(`n =  ${n}`);
-//     // console.log(`кількість від'ємних циклів =  ${nCircle}`);
-//     // console.log(`довжина масиву${arr.length} * кількість від'ємних циклів ${nCircle} + значення елементу 'n= ${n}' `);
-//     // console.log(`індекс першого елементу =  ${nIndex}`);
-
-//         for (let i = nIndex; i < arr.length; i+=1) {
-//             newArr.push(arr[i]);
-//         }
+//   // Change code above this line
 // }
-//  else if (n>0){
-//     for (let i = 0; i < n; i+=1) {
-//         if ( i >= arr.length ){
-//             break;
-//         }
-//             newArr.push(arr[i]);
-            
-//     } 
-// } else console.log('обрано 0 елементів фрагменту для формування нового масиву ');
-// console.log(`newArr =  ${newArr}`)
+
+//10
+// function splitMessage(message, delimeter) {
+//   let words;
+//   // Change code below this line
+//   let a=message;
+//   let b=delimeter;
+//    words=a.split(b);
+//   // Change code above this line
+//   return words;
+// }
+
+//11
+// function calculateEngravingPrice(message, pricePerWord) {
+//   // Change code below this line
+
+//     return message.split(' ').length * pricePerWord;
+
+//   // Change code above this line
+// }
+
+//12
+// function makeStringFromArray(array, delimeter) {
+//   let string;
+//     // Change code below this line
+//   string = array.join(delimeter);
+
+//     // Change code above this line
+//     return string;
+//   }
+
+//13
+// function slugify(title) {
+//   return title
+//           .toLowerCase()
+//           .split(" ")
+//           .join("-");
+//   // Change code above this line
+// }
+
+//14
+// const fruits = ['apple', 'plum', 'pear', 'orange', 'banana'];
+
+// // Change code below this line
+// const firstTwoEls = fruits.slice(0, 2);
+// const nonExtremeEls = fruits.slice(1, -1);
+// const lastThreeEls = fruits.slice(-3);
+
+//15
+// const oldClients = ['Mango', 'Ajax', 'Poly', 'Kiwi'];
+// const newClients = ['Peach', 'Houston'];
+
+// const allClients = oldClients.concat(newClients); // Change this line
+
+//16
+// function makeArray(firstArray, secondArray, maxLength) {
+//   // Change code below this line
+
+// let newBigArray = firstArray.concat(secondArray);
+
+
+// console.log(newBigArray);
+
+
+// let newArray = newBigArray.slice(0, maxLength)
+// return newArray;
+//   // Change code above this line
+// }
+// //17
+// const start = 3;
+// const end = 7;
+
+// for (let i = start; i <= end ; i += 1 ) { // Change this line
+//   console.log(i);
+// }
+//18
+// function calculateTotal(number) {
+//   // Change code below this line
+//   let total=0;
+//  for (let i = 1; i <= number ; i += 1 ) { // Change this line
+//    total += i;
+//  }
+//  return total;
+ 
+//    // Change code above this line
+//  }
+
+ //19
+//  const fruits = ['apple', 'plum', 'pear', 'orange'];
+
+//  for (let i = 0; i < fruits.length ; i += 1 ) { // Change this line
+//    const fruit = fruits[i]; // Change this line
+//    console.log(fruit);
+//  }
+
+ //20
+//  function calculateTotalPrice(order) {
+//   let total = 0;
+//   // Change code below this line
+// for ( let i=0  ; i < order.length ; i+=1){
+//   total += order[i]
+//   console.log(total)
+// }
+//   // Change code above this line
+//   return total;
+// }
+
+//21
+// function findLongestWord(string) {
+//   // Change code below this line
+// let longestWord = 0
+// let arrai = string.split(' ')
+// let word = undefined;
+
+//   for (let i = 0; i < arrai.length - 1; i+=1 ) {
+//       if (longestWord < arrai[i].length) {
+//         longestWord = arrai[i].length;
+//         word = arrai[i]
+//       }
+//   }
+//   console.log(word)
+//   return word ;
+//   // Change code above this line
+// }
+
+//22
+// function createArrayOfNumbers(min, max) {
+//   const numbers = [];
+//   // Change code below this line
+// for ( let i = min ; i <= max ; i += 1){
+//     numbers.push(i)
+//     console.log(numbers)
+// }
+//   // Change code above this line
+//   return numbers;
+// }
+
+//23
+// function filterArray(numbers, value) {
+//   // Change code below this line
+//   let newArray = [];
+//  for ( let i = 0 ; i < numbers.length ; i += 1){
+//    if (numbers[i]>value){
+//     newArray.push(numbers[i])
+//     console.log(newArray)
+//    }
+// }
+// return newArray
+//  // Change code above this line
+// }
+
+//24
+// function checkFruit(fruit) {
+//   const fruits = ["apple", "plum", "pear", "orange"];
+
+//  return fruits.includes(fruit); // Change this line
+// }
+
+//25
+// function getCommonElements(array1, array2) {
+//   // Change code below this line
+//   let newArray=[];
+// for ( let i = 0 ; i < array1.length ; i+=1){
+//       if (array2.includes(array1[i])) {
+//         newArray.push(array1[i])
+//       }
+// }
+//   return newArray
+//  // Change code above this line
+// }
+
+//26
+// function calculateTotalPrice(order) {
+//   let total = 0;
+//   // Change code below this line
+
+//   for (const element of order) {
+//       total += element;
+//     }
+//       return total
+// }
+//   // Change code above this line
+
+//27
+// function filterArray(numbers, value) {
+//   // Change code below this line
+//   const filteredNumbers = [];
+
+//   for (const number of numbers) {
+
+//     if (number > value) {
+//       filteredNumbers.push(number);
+//     }
+//   }
+
+//   return filteredNumbers;
+//   // Change code above this line
+// }
+
+//28
+// Change code below this line
+// const a = 3 % 1;
+// const b = 4 % 3;
+// const c = 11 % 4;
+// const d = 12 % 7;
+// const e = 8 % 6;
+
+//29
+// function getEvenNumbers(start, end) {
+//   // Change code below this line
+//   let newArray=[];
+//   for (let i = start; i <= end; i += 1){
+
+//     if (i % 2 === 0){
+//       newArray.push(i);
+//     }
+
+//   }
+//  return newArray
+ 
+//    // Change code above this line
+// }
+
+//30
+// const start = 6;
+// const end = 27;
+// let number;
+
+// for (let i = start; i < end; i += 1) {
+//   if (i % 5 === 0) {
+
+//     number = i;
+//     break;
+    
+//   }
+ 
+// }
+
+//31
+// function findNumber(start, end, divisor) {
+//   // Change code below this line
+//   let number;
+
+//   for (let i = start; i < end; i += 1) {
+//     if (i % divisor === 0) {
+//       number = i;
+//         return number;
+//       return
+//     }
+//   }
+
+
+//   // Change code above this line
+// }
+
+//32
+// function includes(array, value) {
+//   // Change code below this line
+//   let include = false;
+//          console.log(`value  ${value}`)
+// for ( let i=0 ; i<array.length ; i += 1){
+//       if(array[i] === value){
+//          include = true;
+//          console.log(array[i])       
+//       }
+// }
+// console.log(include);
+// return include;
+//   // Change code above this line
+// }
+
+
