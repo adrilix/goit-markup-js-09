@@ -932,39 +932,282 @@
 //   // Change code above this line
 // }
 
-//12
+//12 -1
+// function countProps(object) {
+//   let propCount = 0;
+//   // Change code below this line
+// for (const key in object) {
+//    if (object.hasOwnProperty(key)){
+//      propCount += 1;
+//    }
+     
+// }
+//   // Change code above this line
+//   return propCount;
+// }
+
+//12-2
+// function countProps(object) {
+//   let propCount = 0;
+//   // Change code below this line
+// propCount = Object.keys(object).length;
+//   // Change code above this line
+//   return propCount;
+// }
 
 //13
+// const apartment = {
+//   descr: "Spacious apartment in the city center",
+//   rating: 4,
+//   price: 2153,
+// };
+// const values = [];
+// // Change code below this line
+// const keys = Object.keys(apartment);
+// for (const key of keys) {
+//       values.push(apartment[key]);
+//         console.log(values);
+//     }
 
 //14
+// function countProps(object) {
+//   let propCount = 0;
+
+// propCount = Object.keys(object).length;
+
+//   return propCount;
+// }
 
 //15
+// const apartment = {
+//   descr: "Spacious apartment in the city center",
+//   rating: 4,
+//   price: 2153,
+// };
+// // Change code below this line
+// const keys = Object.keys(apartment) ;
+// const values = Object.values(apartment);
+
 
 //16
+// function countTotalSalary(salaries) {
+//   let totalSalary = 0;
+//   // Change code below this line
+//     const values = Object.values(salaries);
+//     console.log(values);
+//     const keys = Object.keys(salaries);
+//     console.log(keys);
+//         for (const key of keys){
+//               totalSalary += salaries[key];
+//               console.log(totalSalary);
+//           // }
+        
+//       }
+//   // Change code above this line
+
+// return totalSalary;
+// }
 
 //17
+// const colors = [
+//   { hex: "#f44336", rgb: "244,67,54" },
+//   { hex: "#2196f3", rgb: "33,150,243" },
+//   { hex: "#4caf50", rgb: "76,175,80" },
+//   { hex: "#ffeb3b", rgb: "255,235,59" },
+// ];
 
+// const hexColors = [];
+// const rgbColors = [];
+// // Change code below this line
+// for (const color of colors){
+//   hexColors.push(color.hex);
+//   rgbColors.push(color.rgb);
+// }
 //18
+// const products = [
+//   { name: "Radar", price: 1300, quantity: 4 },
+//   { name: "Scanner", price: 2700, quantity: 3 },
+//   { name: "Droid", price: 400, quantity: 7 },
+//   { name: "Grip", price: 1200, quantity: 9 },
+// ];
+
+// function getProductPrice(productName) {
+//   // Change code below this line
+//   console.log(productName);
+// for (let product of products){
+//   if (product.name === productName) {
+//     return product.price;
+//   }
+// }
+//  return null;
+
+//   // Change code above this line
+// }
 
 //19
+// const products = [
+//   { name: "Radar", price: 1300, quantity: 4 },
+//   { name: "Scanner", price: 2700, quantity: 3 },
+//   { name: "Droid", price: 400, quantity: 7 },
+//   { name: "Grip", price: 1200, quantity: 9 },
+// ];
+
+// function getAllPropValues(propName) {
+//   // Change code below this line
+// const resultArray = [];
+// for (const product of products){
+//   console.log(product);
+   
+//   if (Object.keys(product).includes(propName)) {
+//     resultArray.push(product[propName]);
+//   }   
+// }
+// console.log(resultArray );
+//       return resultArray;
+//   // Change code above this line
+// }  
+
 
 //20
+// const products = [
+//   { name: "Radar", price: 1300, quantity: 4 },
+//   { name: "Scanner", price: 2700, quantity: 3 },
+//   { name: "Droid", price: 400, quantity: 7 },
+//   { name: "Grip", price: 1200, quantity: 9 },
+// ];
+
+// function calculateTotalPrice(productName) {
+//   // Change code below this line
+// for (const product of products){
+
+//   if (product.name === productName) {
+//     console.log(product);
+//     console.log(product.price*product.quantity);
+//     return product.price*product.quantity; 
+//   } 
+// }
+//  return 0;
+// }
 
 //21
+// const highTemperatures = {
+//   yesterday: 28,
+//   today: 26,
+//   tomorrow: 33,
+// };
+// // Change code below this line
+// const { yesterday, today, tomorrow } =  highTemperatures;
+// // const yesterday = highTemperatures.yesterday;
+// // const today = highTemperatures.today;
+// // const tomorrow = highTemperatures.tomorrow;
+
+// // Change code above this line
+// const meanTemperature = (yesterday + today + tomorrow) / 3;
+
 
 //22
+// const highTemperatures = {
+//   yesterday: 28,
+//   today: 26,
+//   tomorrow: 33,
+// };
+// // Change code below this line
+// const { yesterday, today, tomorrow, icon = "https://www.flaticon.com/svg/static/icons/svg/2204/2204346.svg" } = highTemperatures;
+// // const yesterday = highTemperatures.yesterday;
+// // const today = highTemperatures.today;
+// // const tomorrow = highTemperatures.tomorrow;
+// // const icon = highTemperatures.icon;
+
+// // Change code above this line
+// const meanTemperature = (yesterday + today + tomorrow) / 3;
+
 
 //23
+// const highTemperatures = {
+//   yesterday: 28,
+//   today: 26,
+//   tomorrow: 33,
+// };
+// // Change code below this line
+// const {
+//   yesterday,
+//   today,
+//   tomorrow,
+//   icon = "https://www.flaticon.com/svg/static/icons/svg/2204/2204346.svg", } = highTemperatures;
+// // const yesterday = highTemperatures.yesterday;
+// // const today = highTemperatures.today;
+// // const tomorrow = highTemperatures.tomorrow;
+// // const icon = highTemperatures.icon;
+
+// // Change code above this line
+// const meanTemperature = (yesterday + today + tomorrow) / 3;
+
 
 //24
+// const colors = [
+//   { hex: "#f44336", rgb: "244,67,54" },
+//   { hex: "#2196f3", rgb: "33,150,243" },
+//   { hex: "#4caf50", rgb: "76,175,80" },
+//   { hex: "#ffeb3b", rgb: "255,235,59" },
+// ];
+
+// const hexColors = [];
+// const rgbColors = [];
+// // Change code below this line
+
+// for (const { hex, rgb } of colors) {
+//   hexColors.push(hex);
+//   rgbColors.push(rgb);
+// }
 
 //25
+// const forecast = {
+//   today: {
+//     low: 28,
+//     high: 32,
+//     icon: "https://www.flaticon.com/svg/static/icons/svg/861/861059.svg",
+//   },
+//   tomorrow: {
+//     low: 27,
+//     high: 31,
+//   },
+// };
+// // Change code below this line
+// const { 
+//   today: {
+//     high:highToday,
+//     low:lowToday,
+//     icon:todayIcon="https://www.flaticon.com/svg/static/icons/svg/861/861059.svg"} ,
+//   tomorrow: {
+//     high:highTomorrow,
+//     low:lowTomorrow,
+//     icon:tomorrowIcon="https://www.flaticon.com/svg/static/icons/svg/2204/2204346.svg" } } = forecast;
+// // const highToday = forecast.today.high;
+// // const lowToday = forecast.today.low;
+// // const todayIcon = forecast.today.icon;
+
+// // const highTomorrow = forecast.tomorrow.high;
+// // const lowTomorrow = forecast.tomorrow.low;
+// // const tomorrowIcon = forecast.tomorrow.icon;
+
 
 //26
+// Change code below this line
+// function calculateMeanTemperature(forecast) {
+//   const { today: {low: todayLow, high: todayHigh}, tomorrow: {low: tomorrowLow, high: tomorrowHigh} } = forecast;
+//   // Change code above this line
+//   return (todayLow + todayHigh + tomorrowLow + tomorrowHigh) / 4;
+// }
 
 //27
+// const scores = [89, 64, 42, 17, 93, 51, 26];
+// // Change code below this line
+// const bestScore = (Math.max(...scores));
+// const worstScore = Math.min(...scores);
+
 
 //28
+
 
 //29
 
