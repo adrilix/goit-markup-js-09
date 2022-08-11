@@ -533,9 +533,7 @@
 
 // let newBigArray = firstArray.concat(secondArray);
 
-
 // console.log(newBigArray);
-
 
 // let newArray = newBigArray.slice(0, maxLength)
 // return newArray;
@@ -556,11 +554,11 @@
 //    total += i;
 //  }
 //  return total;
- 
+
 //    // Change code above this line
 //  }
 
- //19
+//19
 //  const fruits = ['apple', 'plum', 'pear', 'orange'];
 
 //  for (let i = 0; i < fruits.length ; i += 1 ) { // Change this line
@@ -568,7 +566,7 @@
 //    console.log(fruit);
 //  }
 
- //20
+//20
 //  function calculateTotalPrice(order) {
 //   let total = 0;
 //   // Change code below this line
@@ -692,7 +690,7 @@
 
 //   }
 //  return newArray
- 
+
 //    // Change code above this line
 // }
 
@@ -706,9 +704,9 @@
 
 //     number = i;
 //     break;
-    
+
 //   }
- 
+
 // }
 
 //31
@@ -724,7 +722,6 @@
 //     }
 //   }
 
-
 //   // Change code above this line
 // }
 
@@ -736,7 +733,7 @@
 // for ( let i=0 ; i<array.length ; i += 1){
 //       if(array[i] === value){
 //          include = true;
-//          console.log(array[i])       
+//          console.log(array[i])
 //       }
 // }
 // console.log(include);
@@ -766,8 +763,8 @@
 //       email: "henry.carter@aptmail.com",
 //     },
 //   };
-  
-  //3
+
+//3
 //   const apartment = {
 //     imgUrl: "https://via.placeholder.com/640x480",
 //     descr: "Spacious apartment in the city center",
@@ -775,7 +772,7 @@
 //     price: 2153,
 //     tags: ["premium", "promoted", "top"],
 //   };
-  
+
 //   // Change code below this line
 //   const aptRating = apartment.rating;
 //   const aptDescr = apartment.descr;
@@ -787,86 +784,86 @@
 //   console.log (aptTags);
 //   // Change code above this line
 
-  //4
-  // const apartment = {
-  //   imgUrl: "https://via.placeholder.com/640x480",
-  //   descr: "Spacious apartment in the city center",
-  //   rating: 4,
-  //   price: 2153,
-  //   tags: ["premium", "promoted", "top"],
-  //   owner: {
-  //     name: "Henry",
-  //     phone: "982-126-1588",
-  //     email: "henry.carter@aptmail.com",
-  //   },
-  // };
-  
-  // // Change code below this line
-  // const ownerName = apartment.owner.name;
-  // const ownerPhone = apartment.owner.phone;
-  // const ownerEmail = apartment.owner.email;
-  // const numberOfTags = apartment.tags.length;
-  // const firstTag = apartment.tags[0];
-  // const lastTag = apartment.tags[2];
-  // // Change code above this line
+//4
+// const apartment = {
+//   imgUrl: "https://via.placeholder.com/640x480",
+//   descr: "Spacious apartment in the city center",
+//   rating: 4,
+//   price: 2153,
+//   tags: ["premium", "promoted", "top"],
+//   owner: {
+//     name: "Henry",
+//     phone: "982-126-1588",
+//     email: "henry.carter@aptmail.com",
+//   },
+// };
 
-  //5
-  // const apartment = {
-  //   imgUrl: "https://via.placeholder.com/640x480",
-  //   descr: "Spacious apartment in the city center",
-  //   rating: 4,
-  //   price: 2153,
-  //   tags: ["premium", "promoted", "top"],
-  // };
-  
-  // // Change code below this line
-  // const aptRating = apartment['rating'];
-  // const aptDescr = apartment['descr'];
-  // const aptPrice = apartment['price'];
-  // const aptTags = apartment['tags'];
-  // // Change code above this line
+// // Change code below this line
+// const ownerName = apartment.owner.name;
+// const ownerPhone = apartment.owner.phone;
+// const ownerEmail = apartment.owner.email;
+// const numberOfTags = apartment.tags.length;
+// const firstTag = apartment.tags[0];
+// const lastTag = apartment.tags[2];
+// // Change code above this line
 
-  //6
-  // const apartment = {
-  //   imgUrl: "https://via.placeholder.com/640x480",
-  //   descr: "Spacious apartment in the city center",
-  //   rating: 4,
-  //   price: 2153,
-  //   tags: ["premium", "promoted", "top"],
-  //   owner: {
-  //     name: "Henry",
-  //     phone: "982-126-1588",
-  //     email: "henry.carter@aptmail.com",
-  //   },
-  // };
-  // apartment.price = 5000;
-  // apartment.rating = 4.7;
-  // apartment.owner.name ="Henry Sibola";
-  // apartment.tags.push("trusted");
-  
-  // Change code below this line
+//5
+// const apartment = {
+//   imgUrl: "https://via.placeholder.com/640x480",
+//   descr: "Spacious apartment in the city center",
+//   rating: 4,
+//   price: 2153,
+//   tags: ["premium", "promoted", "top"],
+// };
 
-  //7
-  // const apartment = {
-  //   imgUrl: "https://via.placeholder.com/640x480",
-  //   descr: "Spacious apartment in the city center",
-  //   rating: 4.7,
-  //   price: 5000,
-  //   tags: ["premium", "promoted", "top", "trusted"],
-  //   owner: {
-  //     name: "Henry Sibola",
-  //     phone: "982-126-1588",
-  //     email: "henry.carter@aptmail.com",
-  //   },
-  // };
-  //   apartment.area = 60;
-  //   apartment.rooms= 3;
-  //   apartment.location={
-  //     country : "Jamaica",
-  //     city : "Kingston",
-  //   };
+// // Change code below this line
+// const aptRating = apartment['rating'];
+// const aptDescr = apartment['descr'];
+// const aptPrice = apartment['price'];
+// const aptTags = apartment['tags'];
+// // Change code above this line
 
-  //8
+//6
+// const apartment = {
+//   imgUrl: "https://via.placeholder.com/640x480",
+//   descr: "Spacious apartment in the city center",
+//   rating: 4,
+//   price: 2153,
+//   tags: ["premium", "promoted", "top"],
+//   owner: {
+//     name: "Henry",
+//     phone: "982-126-1588",
+//     email: "henry.carter@aptmail.com",
+//   },
+// };
+// apartment.price = 5000;
+// apartment.rating = 4.7;
+// apartment.owner.name ="Henry Sibola";
+// apartment.tags.push("trusted");
+
+// Change code below this line
+
+//7
+// const apartment = {
+//   imgUrl: "https://via.placeholder.com/640x480",
+//   descr: "Spacious apartment in the city center",
+//   rating: 4.7,
+//   price: 5000,
+//   tags: ["premium", "promoted", "top", "trusted"],
+//   owner: {
+//     name: "Henry Sibola",
+//     phone: "982-126-1588",
+//     email: "henry.carter@aptmail.com",
+//   },
+// };
+//   apartment.area = 60;
+//   apartment.rooms= 3;
+//   apartment.location={
+//     country : "Jamaica",
+//     city : "Kingston",
+//   };
+
+//8
 //   const name = "Repair Droid";
 // const price = 2500;
 // const image = "https://via.placeholder.com/640x480";
@@ -875,7 +872,7 @@
 // const product = {
 //   // Change code below this line
 //   name,
-//   price, 
+//   price,
 //   image,
 //   tags,
 //   // Change code above this line
@@ -889,7 +886,6 @@
 //   // Change code below this line
 //   [emailInputName]: "henry.carter@aptmail.com",
 //   [passwordInputName]: "jqueryismyjam",
-
 
 //   // Change code above this line
 // };
@@ -926,7 +922,7 @@
 //   // Change code below this line
 //   if (apartment.hasOwnProperty(key)){
 //     // keys.push(key);
-    
+
 //   values.push(apartment[key]);
 //   };
 //   // Change code above this line
@@ -940,7 +936,7 @@
 //    if (object.hasOwnProperty(key)){
 //      propCount += 1;
 //    }
-     
+
 // }
 //   // Change code above this line
 //   return propCount;
@@ -988,7 +984,6 @@
 // const keys = Object.keys(apartment) ;
 // const values = Object.values(apartment);
 
-
 //16
 // function countTotalSalary(salaries) {
 //   let totalSalary = 0;
@@ -1001,7 +996,7 @@
 //               totalSalary += salaries[key];
 //               console.log(totalSalary);
 //           // }
-        
+
 //       }
 //   // Change code above this line
 
@@ -1057,16 +1052,15 @@
 // const resultArray = [];
 // for (const product of products){
 //   console.log(product);
-   
+
 //   if (Object.keys(product).includes(propName)) {
 //     resultArray.push(product[propName]);
-//   }   
+//   }
 // }
 // console.log(resultArray );
 //       return resultArray;
 //   // Change code above this line
-// }  
-
+// }
 
 //20
 // const products = [
@@ -1083,8 +1077,8 @@
 //   if (product.name === productName) {
 //     console.log(product);
 //     console.log(product.price*product.quantity);
-//     return product.price*product.quantity; 
-//   } 
+//     return product.price*product.quantity;
+//   }
 // }
 //  return 0;
 // }
@@ -1104,7 +1098,6 @@
 // // Change code above this line
 // const meanTemperature = (yesterday + today + tomorrow) / 3;
 
-
 //22
 // const highTemperatures = {
 //   yesterday: 28,
@@ -1120,7 +1113,6 @@
 
 // // Change code above this line
 // const meanTemperature = (yesterday + today + tomorrow) / 3;
-
 
 //23
 // const highTemperatures = {
@@ -1141,7 +1133,6 @@
 
 // // Change code above this line
 // const meanTemperature = (yesterday + today + tomorrow) / 3;
-
 
 //24
 // const colors = [
@@ -1173,7 +1164,7 @@
 //   },
 // };
 // // Change code below this line
-// const { 
+// const {
 //   today: {
 //     high:highToday,
 //     low:lowToday,
@@ -1190,7 +1181,6 @@
 // // const lowTomorrow = forecast.tomorrow.low;
 // // const tomorrowIcon = forecast.tomorrow.icon;
 
-
 //26
 // Change code below this line
 // function calculateMeanTemperature(forecast) {
@@ -1205,7 +1195,6 @@
 // const bestScore = (Math.max(...scores));
 // const worstScore = Math.min(...scores);
 
-
 //28
 // const firstGroupScores = [64, 42, 93];
 // const secondGroupScores = [89, 14, 51, 26];
@@ -1214,7 +1203,6 @@
 // const allScores = [...firstGroupScores, ...secondGroupScores, ...thirdGroupScores];
 // const bestScore = (Math.max(...allScores));
 // const worstScore = (Math.min(...allScores));
-
 
 //29
 // const defaultSettings = {
@@ -1231,7 +1219,6 @@
 // };
 // // Change code below this line
 // const finalSettings = {...defaultSettings, ...overrideSettings};
-
 
 //30
 // function makeTask(data) {
@@ -1265,7 +1252,7 @@
 //   for (let id=1; id<args.length; id+=1) {
 
 //     if (args[0] < args[id] ){
- 
+
 //     total +=  args[id];
 //     }
 //   }
@@ -1321,7 +1308,7 @@
 //   updateBook(oldName, newName){
 //     return `Updating book ${oldName} to ${newName}`
 //   }
-  
+
 //   // Change code above this line
 // };
 
@@ -1333,21 +1320,17 @@
 //     const bookToChange = this.books.indexOf(oldName);
 //        this.books.splice(bookToChange, 1, newName);
 
-
 //     // Change code above this line
 //   },
 // };
-
 
 //36
 // const atTheOldToad = {
 //   // Change code below this line
 //     potions : [],
 
-
 //   // Change code above this line
 // };
-
 
 //37
 // const atTheOldToad = {
@@ -1358,7 +1341,6 @@
 //   }
 //   // Change code above this line
 // };
-
 
 //38
 // const atTheOldToad = {
@@ -1372,7 +1354,6 @@
 //   },
 // };
 
-
 //39
 // const atTheOldToad = {
 //   potions: ["Speed potion", "Dragon breath", "Stone skin"],
@@ -1381,7 +1362,6 @@
 
 //     const potionToDell = this.potions.indexOf(potionName);
 //        this.potions.splice(potionToDell, 1,);
-
 
 //     // Change code above this line
 //   },
@@ -1399,11 +1379,10 @@
 //   },
 // };
 
-
 //41
 // const atTheOldToad = {
 //   potions: [
-//     { 
+//     {
 //      name: "Speed potion",
 //      price: 460
 //     },
@@ -1419,13 +1398,13 @@
 //       const {name} = newPotion;
 //               if (potion.name.includes(name)) {
 //                      return `Error! Potion ${name} is already in your inventory!`;
-//                      }  
+//                      }
 //          }
 //       this.potions.push(newPotion);
 //     return this.potions;
 //   },
 //   removePotion(potionName) {
-    
+
 //     for (const potion of this.potions) {
 //           if ( potionName === potion.name){
 //               const potionIndex = this.potions.indexOf(potion);
@@ -1441,14 +1420,75 @@
 //       if (potion.name === oldName) {
 //         potion.name = newName;
 //       }
-//     } 
+//     }
 //       return `Potion ${oldName} is not in inventory!`;
 //   },
 //   // Change code above this line
 // };
 
-
 /////////////////////////////////////////////////////////////////  4 module  ////////////////////
 
-
 // 4-1
+// Доповни код таким чином, щоб у змінній result був результат виконання функції makePizza, а у змінній pointer було посилання на функцію makePizza.
+
+// function makePizza() {
+//   return "Your pizza is being prepared, please wait.";
+// }
+// // Change code below this line
+
+// const result = (makePizza());
+// const pointer = makePizza;
+
+// Оголошена функція makePizza
+// Оголошена змінна result
+// Значення змінної result - це рядок "Your pizza is being prepared, please wait."
+// Значення змінної result отримане за допомогою виклику функції
+// Оголошена змінна pointer
+// Значення змінної pointer - це посилання на функцію makePizza
+
+//4-2
+// Доповни функцію makeMessage таким чином, щоб вона очікувала другим параметром (параметр callback) колбек-функцію і повертала її виклик. Функція deliverPizza або makePizza буде передаватися як колбек і очікувати аргументом ім'я готової піци, що доставляється.
+
+// function deliverPizza(pizzaName) {
+//   // console.log (pizzaName)
+//   return `Delivering ${pizzaName} pizza.`;
+// }
+
+// function makePizza(pizzaName) {
+//   // console.log (pizzaName)
+//   return `Pizza ${pizzaName} is being prepared, please wait...`;
+// }
+
+// Chande code below this line
+// function makeMessage(pizzaName, callback) {
+//   // console.log (pizzaName)
+//   // console.log (callback)
+//   return callback(pizzaName);
+// }
+// console.log (pizzaName)
+
+// Оголошена функція deliverPizza
+// Оголошена функція makePizza
+// Оголошена функція makeMessage
+// Функція makeMessage приймає два параметри, названі відповідно до завдання, pizzaName і callback
+
+// console.log(makeMessage("Royal Grand", makePizza))
+// console.log(makeMessage("Royal Grand", deliverPizza))
+// makePizza("PashaBest")
+//  повертає рядок "Pizza Royal Grand is being prepared, please wait..."
+// Виклик makeMessage("Ultracheese", deliverPizza) повертає рядок "Delivering Ultracheese pizza."
+
+// 4-3
+// function makePizza(pizzaName, callback) {
+//   console.log(`Pizza ${pizzaName} is being prepared, please wait...`);
+//   callback(pizzaName);
+// }
+
+// makePizza("Royal Grand", function deliverPizza(pizzaName) {
+//   console.log(`Delivering pizza ${pizzaName}.`);
+// });
+// // Change code below this line
+
+// makePizza("Ultracheese", function eatPizza(pizzaName) {
+//   return`Eating pizza ${pizzaName}.`
+// });
